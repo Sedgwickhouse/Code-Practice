@@ -40,12 +40,23 @@
 
 //console.log('the biggest hero is: ' + heros[3]);
 
-function showMultiplesofSeven(num) {
-    for (var i = 1; i <= 10; i++) {
-        console.log(num + " x " + i + " = " + (num * i));
+//function showMultiplesofSeven(num) {
+    //for (var i = 1; i <= 10; i++) {
+       // console.log(num + " x " + i + " = " + (num * i));
+    //}
+//}
+
+//showMultiplesofSeven(7)
+
+
+function isEvenorOdd(num) {
+    for( var i = 20; i <= 100; i++) {
+        if(i % 2 === 0) {
+            return num + " is even "
+        } else {
+            return num + " is odd "
+        }
     }
 }
 
-showMultiplesofSeven(7)
-
-
+console.log(isEvenorOdd(59));
