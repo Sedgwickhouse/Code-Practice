@@ -94,3 +94,42 @@ function divisibleByFive(num) {
         return false
     }
 }
+
+//Return true if two passed strings have the same length. Return false if they do not.
+function comp(str1, str2) {
+    if(str1.length == str2.length) {
+        return true
+    } else {
+        return false
+    }
+}
+
+
+//A bartender is writing a simple program to determine whether he should serve drinks to someone. He only serves drinks to people 18 and older and when he's not on break.
+
+//Given the person's age, and whether break time is in session, create a function which returns whether he should serve drinks.
+
+function shouldServeDrinks(age, onBreak) {
+    if( age >= 18 && !onBreak) {
+        return true
+    } else {
+        return false
+    }
+}
+
+//Create a function that takes a number discs as an argument and returns the minimum amount of steps needed to complete the game (refer to hanoi tower)
+
+    Examples
+function towerHanoi(discs) {
+    return Math.pow(2, discs) - 1;
+}
+
+//returning true if string is empty otherwise return false.
+
+function isEmpty(s) {
+    if( s === "") {
+        return true
+    } else {
+        return false
+    }
+}
