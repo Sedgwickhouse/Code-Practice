@@ -60,3 +60,18 @@ function isEvenorOdd(num) {
 }
 
 console.log(isEvenorOdd(59));
+
+//returning an object as an array
+function toArray(obj) {
+    return Object.entries(obj);
+}
+
+// returning integers that are evenly divisible.
+
+function dividesEvenly(a, b) {
+    if (a % b === 0) {
+        return true
+    } else {
+        return false
+    }
+}
