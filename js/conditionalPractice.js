@@ -84,3 +84,13 @@ function checkEquality(a, b) {
         return false
     }
 }
+
+// writing a function that returns true if the number is divisible by 5 and false if not.
+
+function divisibleByFive(num) {
+    if(num % 5 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
