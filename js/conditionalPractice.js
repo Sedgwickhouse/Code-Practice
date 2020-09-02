@@ -75,3 +75,12 @@ function dividesEvenly(a, b) {
         return false
     }
 }
+
+// returning boolean value of equal integers (type and value)
+function checkEquality(a, b) {
+    if(a === b) {
+        return true
+    } else {
+        return false
+    }
+}
