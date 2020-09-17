@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Es5 Warm Up</title>
+</head>
+<body>
+<h1>Printing out names</h1>
+
+<main>
+    <div class="diplayed-name">MaNdo</div>
+     <div class="diplayed-name">SAHARA</div>
+     <div class="diplayed-name">sTaN</div>
+</main>
+<script>
+    var lastName = {Name: "smith"};
+    var theDivs = document.getElementsByTagName("div")
+
+   function changeCase(str) {
+        return str[0].toUpperCase() + str.substring(1).toLowerCase()
+   }
+   for(var i = 0; i < theDivs.length; i += 1) {
+        theDivs[i].innerText = changeCase(theDivs[i].innerText) + " " + changeCase(lastName.Name);
+
+    }
+
+</script>
+</body>
+</html>
